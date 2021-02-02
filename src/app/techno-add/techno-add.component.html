@@ -1,0 +1,18 @@
+<h2>Ajouter une techno à veiller</h2>
+
+<form #f="ngForm" (submit)="addTechno(f)">
+  <label for="technoname">Nom de la techno</label><br />
+  <input type="text" id="technoname" ngModel name="technoname" /><br />
+  <label for="category">Categorie</label><br />
+  <select id="category" ngModel name="category">
+    <option value="">---</option>
+    <option value="front">Front</option>
+    <option value="back">Back</option>
+    <option value="fullstack">Full Stack</option>
+  </select>
+  <br />
+  <label for="details">Détails</label><br />
+  <textarea id="details" cols="30" rows="10" ngModel name="details"></textarea
+  ><br />
+  <button type="Submit">Ajouter</button>
+</form>

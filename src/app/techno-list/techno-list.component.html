@@ -1,0 +1,9 @@
+<h2>Toutes les technos</h2>
+
+<!-- {{ alltechnos | json }} données brut -->
+<div *ngFor="let techno of alltechnos">
+  <!-- * -> directive structurelle -->
+  <app-techno-details [tech]="techno" (deleteTech)="deleteTechno($event)"
+    ><!-- [] = input / $event = emit(tech) -->
+  </app-techno-details>
+</div>
