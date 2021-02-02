@@ -1,6 +1,7 @@
 # TechnoWatch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+Tuto Youtube: https://www.youtube.com/watch?v=IWXzyV4L6BU
 
 ## Development server
 
